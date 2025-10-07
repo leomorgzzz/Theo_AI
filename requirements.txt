@@ -1,10 +1,13 @@
 langchain
 wikipedia
 langchain-community
-langchain-openai
-langchain-anthropic
 python-dotenv
 pydantic
 duckduckgo-search
 google-generativeai
 google-genai
+dotenv
+langchain-google-genai
+chromadb
+pypdf
+langchain-text-splitters
