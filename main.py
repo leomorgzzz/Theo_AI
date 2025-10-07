@@ -152,7 +152,7 @@ def chat_loop():
 
         except KeyboardInterrupt:
 
-            print("\n\n¡Gracias por usar a Theo! Que tengas un buen día. 👋")
+            print("\n\n¡Gracias por usar a Theo! Que tengas un buen día. ")
             sys.exit(0)
         except Exception as e:
 
