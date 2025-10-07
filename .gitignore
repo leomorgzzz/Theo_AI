@@ -1,0 +1,18 @@
+
+# 1. Credenciales y Archivos de Configuración Sensibles
+.env
+
+
+# 2. Entorno Virtual de Python
+venv/
+
+# 3. Archivos de Caché y Compilación
+__pycache__/
+*.pyc
+*.log
+
+# 4. Bases de Datos Locales
+theo_memory_db/
+*.pdf
+*.csv 
+*.json
