@@ -43,7 +43,7 @@ def indexar_documentos(pdf_path):
         persist_directory=CHROMA_DB_DIR
     )
 
-    print("\n✅ Indexación completada. La información ha sido añadida a la memoria de Theo.")
+    print("\nIndexación completada. La información ha sido añadida a la memoria de Theo.")
 
 
 
