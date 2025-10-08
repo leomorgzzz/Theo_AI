@@ -11,3 +11,4 @@ langchain-google-genai
 chromadb
 pypdf
 langchain-text-splitters
+ddgs
