@@ -12,6 +12,9 @@ from langchain.agents import create_tool_calling_agent, AgentExecutor
 from tools import search_tool, wiki_tool, save_tool
 from langchain_core.messages import HumanMessage, AIMessage
 
+if os.getenv("GEMINI_API_KEY"):
+    os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY")
+    
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
 
 EMBEDDINGS_MODEL = "models/text-embedding-004"
