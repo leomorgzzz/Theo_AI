@@ -80,5 +80,32 @@ Ejecuta el comando de la siguiente manera para empezar a interactuar con Theo.
 python3 main.py
 
 ```
+## Alias para Zsh (.zshrc) y Bash (.bashrc)
 
+Recuerda que debes reemplazar la ruta /home/USER/proyectos/Theo_AI con la ruta exacta de tu directorio de proyecto, si cambiaste el nombre de usuario o la ubicación.
 
+1. Para Zsh (Z Shell) y Para Bash (Bourne Again Shell)
+
+Abre ~/.zshrc o ~/.bashrc y pega esta línea:
+```
+
+# ALIAS PARA INICIAR EL ASISTENTE THEO
+alias theo='cd /home/leonardo/proyectos/Theo_AI/ && source venv/bin/activate && python3 main.py && deactivate'
+
+```
+2. Recarga el shell ejecutando:
+
+```
+
+source ~/.zshrc   # Si estás usando Zsh
+# O
+source ~/.bashrc  # Si estás usando Bash
+
+```
+3. Ya puedes ejecutar el comando theo desde tu terminal y ejecutar al asistente.
+
+```
+
+theo
+
+```
